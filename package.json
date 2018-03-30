@@ -1,0 +1,25 @@
+{
+  "name": "node_typescript_crud",
+  "version": "1.0.0",
+  "description": "Application to perform simple CRUD operations",
+  "main": "./bin/main.js",
+  "scripts": {
+    "start": "node ./bin/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwip Kumar Paul",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/express": "^4.11.1",
+    "@types/mongoose": "^5.0.7",
+    "@types/node": "^9.6.0"
+  }
+}

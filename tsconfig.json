@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",  // Target must be ES6 to avoid facing errors when writing promises                         
+    "module": "commonjs",                     
+    "outDir": "./",  // Output Directory for compiled JS files
+    "strict": true
+  },
+  "include": [
+    "src/**/*.ts"   // Source code for compilation
+  ],
+  "exclude": [
+    "node_modules"  // Add path here for exclusion from compilation
+  ]
+}
